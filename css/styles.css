@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background-color: #5a3b2e; /* marrón del cerro */
+  background-color: #4C8C4A; /* Verde valle */
   color: white;
   padding: 1em;
   text-align: center;
@@ -29,9 +29,13 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #1e5caa; /* azul cielo */
+  color: #ffffff;
   text-decoration: none;
   font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #a3d9a5; /* Verde claro al pasar el mouse */
 }
 
 main {
