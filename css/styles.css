@@ -2,12 +2,12 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #fdfdfb; /* fondo claro cálido */
+  background-color: #f5fff5; /* verde pálido de fondo */
   color: #333;
 }
 
 header {
-  background-color: #4C8C4A; /* Verde valle */
+  background-color: #4C8C4A; /* verde principal tipo valle */
   color: white;
   padding: 1em;
   text-align: center;
@@ -15,6 +15,7 @@ header {
 
 header .logo {
   max-width: 120px;
+  margin-bottom: 0.5em;
 }
 
 nav ul {
@@ -35,7 +36,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #a3d9a5; /* Verde claro al pasar el mouse */
+  color: #a3d9a5; /* verde claro suave */
 }
 
 main {
@@ -43,7 +44,7 @@ main {
 }
 
 footer {
-  background-color: #ddd5c7; /* tono beige natural */
+  background-color: #d1e7d1; /* verde grisáceo claro */
   text-align: center;
   padding: 1em;
   color: #333;
