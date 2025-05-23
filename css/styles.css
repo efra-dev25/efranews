@@ -34,12 +34,17 @@ nav ul li a {
   color: #ffffff;
   text-decoration: none;
   font-weight: bold;
+  padding: 0.5em 1em;
+  border: 2px solid #ffffff; /* Borde blanco para identificar el botón */
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
 
 nav ul li a:hover {
-  color: #a3d9a5; /* verde claro suave */
+  background-color: #a3d9a5; /* Verde claro suave */
+  color: #256025;            /* Texto oscuro para contraste */
+  border-color: #4C8C4A;     /* Borde verde para resaltar */
 }
-
 main {
   padding: 2em;
 }
